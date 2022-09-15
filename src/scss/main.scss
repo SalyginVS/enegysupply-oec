@@ -1,0 +1,12 @@
+// базовые подключения
+@import "reset";
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero-home";
+@import "./components/public";
+@import "./components/footer";

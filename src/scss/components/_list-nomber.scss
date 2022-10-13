@@ -1,0 +1,67 @@
+.list-container {
+  max-width: 705px;
+  width: 100%;
+}
+.list-container p {
+  padding-bottom: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+ }
+
+.list-nomber {
+  span {
+    display: block;
+  }
+  &__item {
+    padding-left: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+  }
+  &__item:not(:last-child){
+    padding-bottom: 50px;
+  };
+  .list-nomber__item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    transform: translateY(-15%);
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/icons/list-bullet/one.svg");
+  }
+  .list-nomber__item--one::before {
+    background-image: url("../img/icons/list-bullet/one.svg");
+  }
+  .list-nomber__item--two::before {
+    background-image: url("../img/icons/list-bullet/two.svg");
+  }
+  .list-nomber__item--three::before {
+    background-image: url("../img/icons/list-bullet/three.svg");
+  }
+  .list-nomber__item--four::before {
+    background-image: url("../img/icons/list-bullet/four.svg");
+  }
+  .list-nomber__item--five::before {
+    background-image: url("../img/icons/list-bullet/five.svg");
+  }
+  .list-nomber__item--six::before {
+    background-image: url("../img/icons/list-bullet/six.svg");
+  }
+
+  &__item span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var("--color-metal");
+  }
+  &__item a {
+    text-decoration: underline;
+  }
+}

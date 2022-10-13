@@ -1,8 +1,10 @@
-.public {
+.info {
   &__content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-all-sb;
+
+    padding-bottom: 105px;
+    padding-top: 135px;
+    background-color: var(--color-light);
 
     &--reverse {
       flex-direction: row-reverse;
@@ -23,6 +25,7 @@
 
   &__link {
     @extend %btn;
+
     text-transform: uppercase;
   }
 

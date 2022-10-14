@@ -1,0 +1,13 @@
+.info-gray {
+  border-radius: 8px;
+  padding: 40px;
+  width: 100%;
+  max-width: 704px;
+  background-color: var(--color-porcelain);
+
+  p {
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}

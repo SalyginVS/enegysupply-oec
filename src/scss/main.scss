@@ -11,5 +11,12 @@
 @import "./components/hero-page";
 @import "./components/info";
 @import "./components/dg-services";
-@import "./components/list-nomber";
+@import "./components/contract-home-order";
 @import "./components/footer";
+
+// подключения компонентов секции
+
+@import "./components/list-nomber";
+@import "./components/simple-list";
+@import "./components/info-gray";
+@import "./components/small-download";

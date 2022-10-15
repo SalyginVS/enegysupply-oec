@@ -1,6 +1,10 @@
 .faq-answers {
   background-color: var(--color-light);
 
+  &__title {
+    margin-bottom: 60px;
+  }
+
   &__accordion {
     margin: 0 auto;
     max-width: 950px;
@@ -11,7 +15,7 @@
 
     .accordion__control {
       position: relative;
-      border: 1px solid #656865;
+      border: 1px solid var(--color-alto);
       border-radius: 8px;
       padding: 32px;
       text-align: left;

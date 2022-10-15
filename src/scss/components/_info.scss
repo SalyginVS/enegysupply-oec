@@ -2,8 +2,6 @@
   &__content {
     @include flex-all-sb;
 
-    padding-bottom: 105px;
-    padding-top: 135px;
     background-color: var(--color-light);
 
     &--reverse {

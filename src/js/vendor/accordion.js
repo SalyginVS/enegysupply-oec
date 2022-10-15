@@ -14,8 +14,6 @@ class GraphAccordion {
 	}
 
 	event() {
-		console.log('event!');
-
 		if (this.accordion) {
 			this.accordion.addEventListener('click', (e) => {
 				this.accordion.classList.toggle('open');
@@ -49,14 +47,28 @@ class GraphAccordion {
 
 const accordion1 = new GraphAccordion('.accordion-1', {
 	speed: 300,
-	isOpen: (acc) => {
-		console.log(acc);
-	},
-	isClose: (acc) => {
-		console.log(acc);
-	}
 });
 
 const accordion2 = new GraphAccordion('.accordion-2', {
+	speed: 300
+});
+
+const accordion3 = new GraphAccordion('.accordion-3', {
+	speed: 300
+});
+
+const accordion4 = new GraphAccordion('.accordion-4', {
+	speed: 300
+});
+
+const accordion5 = new GraphAccordion('.accordion-5', {
+	speed: 300
+});
+
+const accordion6 = new GraphAccordion('.accordion-6', {
+	speed: 300
+});
+
+const accordion7 = new GraphAccordion('.accordion-7', {
 	speed: 300
 });

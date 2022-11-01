@@ -15,6 +15,11 @@
     background-color: var(--color-porcelain);
   }
 
+  &__container--light {
+    background-color: var(--color-light);
+    padding: 40px 0;
+  }
+
   &__item {
     margin-bottom: 25px;
     padding: 0 0 0 1.75rem;

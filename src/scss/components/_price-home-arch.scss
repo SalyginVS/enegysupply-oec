@@ -1,0 +1,11 @@
+.price-arch {
+  background-color: var(--color-light);
+
+  &__container {
+    max-width: 960px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+  }
+}

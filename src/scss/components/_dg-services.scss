@@ -1,9 +1,17 @@
 .dg-services {
   background-color: var(--color-porcelain);
 
+  &--light {
+    background-color: var(--color-light);
+  }
+
   &__container {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 50px;
   }
 
   &__picture {

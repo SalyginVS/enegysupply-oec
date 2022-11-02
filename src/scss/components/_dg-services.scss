@@ -19,6 +19,7 @@
   }
 
   &__content {
+    padding-left: 30px;
     max-width: 705px;
     width: 100%;
   }
@@ -66,6 +67,10 @@
     height: 314px;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .dg-services__qr:not(:last-child) {
+    margin-right: 30px;
   }
 
   &__img {

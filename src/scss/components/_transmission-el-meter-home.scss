@@ -1,0 +1,31 @@
+.transmission-el-meter-home {
+  background-color: var(--color-light);
+
+  &__wrap {
+    @include flex-sb;
+  }
+
+  &__info-wrap {
+    margin-bottom: 50px;
+    max-width: 582px;
+  }
+
+  .transmission-el-meter-home__info-wrap p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: var(--color-metal);
+  }
+
+  .transmission-el-meter-home__info-wrap p:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.dg-services__link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.dg-services__qr:not(:last-child) {
+  margin-right: 30px;
+}

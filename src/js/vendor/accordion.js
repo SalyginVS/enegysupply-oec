@@ -8,8 +8,10 @@ class GraphAccordion {
 
 		this.options = Object.assign(defaultOptions, options);
 		this.accordion = document.querySelector(selector);
-		this.control = this.accordion.querySelector('.accordion__control');
-		this.content = this.accordion.querySelector('.accordion__content');
+    if (document.querySelector('.accordion__control') && document.querySelector('.accordion__content')){
+      this.control = this.accordion.querySelector('.accordion__control');
+      this.content = this.accordion.querySelector('.accordion__content');
+    }
 		this.event();
 	}
 

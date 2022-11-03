@@ -18,7 +18,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
   }
 
   &__container {
@@ -56,5 +56,9 @@
 
   &--green-home {
     background-image: url("../img/hero-green-home.jpg");
+  }
+
+  &--power-recovery {
+    background-image: url("../img/hero-power-recovery.jpg");
   }
 }

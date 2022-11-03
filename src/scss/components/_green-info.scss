@@ -1,6 +1,6 @@
 .green-info {
   &__content {
-    @include flex-all-sb;
+    @include flex-start-sb;
 
     background-color: var(--color-light);
 

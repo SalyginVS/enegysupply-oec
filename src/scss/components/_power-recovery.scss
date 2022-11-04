@@ -1,0 +1,19 @@
+.power-recovery {
+  background-color: var(--color-lihgt);
+
+  &__wrap {
+    @include flex-start-sb;
+  }
+
+  &__content {
+    max-width: 695px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: var(--color-metal);
+  }
+
+  &__content p:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

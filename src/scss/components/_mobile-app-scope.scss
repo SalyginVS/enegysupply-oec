@@ -1,0 +1,64 @@
+.mobile-app-scope {
+  background-color: var(--color-porcelain);
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+  }
+
+  &__item {
+    position: relative;
+    padding-top: 110px;
+    text-align: center;
+    background-position: top center;
+    background-size: 96px 96px;
+    background-repeat: no-repeat;
+
+    &--add-account {
+      background-image: url("../img/svg/add-account.svg");
+    }
+
+    &--online-payment {
+      background-image: url("../img/svg/mobile-payment.svg");
+    }
+
+    &--show-balance {
+      background-image: url("../img/svg/show-balance.svg");
+    }
+
+    &--show-meter {
+      background-image: url("../img/svg/show-meter.svg");
+    }
+
+    &--show-history {
+      background-image: url("../img/svg/show-history.svg");
+    }
+
+    &--create-bill {
+      background-image: url("../img/svg/create-bill.svg");
+    }
+
+    &--online-revise {
+      background-image: url("../img/svg/online-revise.svg");
+    }
+  }
+
+  &__link-wrap {
+    text-align: center;
+  }
+
+  &__link {
+    text-transform: uppercase;
+
+    @extend %btn;
+  }
+
+  &__descr {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color-metal);
+  }
+}

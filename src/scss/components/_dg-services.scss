@@ -12,6 +12,10 @@
 
   &__title {
     margin-bottom: 50px;
+
+    &--left {
+      text-align: left;
+    }
   }
 
   &__picture {
@@ -32,6 +36,10 @@
   &__link-container {
     display: flex;
     margin-bottom: 50px;
+
+    &--services {
+      margin-bottom: 120px;
+    }
   }
 
   .dg-services__link:not(:last-child) {

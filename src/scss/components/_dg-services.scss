@@ -110,4 +110,44 @@
     text-align: center;
     color: var(--color-light);
   }
+
+  &__label {
+    @include flex-all-sb;
+
+    border-radius: 16px;
+    padding: 20px 24px;
+    width: 352px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.30);
+    background-color: var(--color-light);
+  }
+
+  &__label-svg {
+    margin-right: 24px;
+    width: 48px;
+    height: 48px;
+  }
+
+  &__label-descr {
+    width: 236px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-metal);
+  }
+
+  &__picture-wrap {
+    position: relative;
+  }
+
+  &__label-orange {
+    position: absolute;
+    top: 100px;
+    right: -60px;
+  }
+
+  &__label-blue {
+    position: absolute;
+    bottom: 270px;
+    left: 50px;
+  }
 }

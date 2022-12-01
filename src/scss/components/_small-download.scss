@@ -16,6 +16,10 @@
     background-color: var(--color-porcelain);
   }
 
+  .small-download__container:not(:last-child) {
+    margin-right: 10px;
+  }
+
   &__container--light {
     background-color: var(--color-light);
     padding: 40px 0;

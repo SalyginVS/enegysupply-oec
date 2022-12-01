@@ -14,6 +14,10 @@
     max-width: 705px;
   }
 
+  &__info-not-reverse {
+    margin-right: 0;
+  }
+
   &__info-bold {
     margin-right: 30px;
     max-width: 640px;
@@ -50,6 +54,7 @@
   }
 
   &__picture {
+    min-width: 320px;
     max-width: 570px;
     max-height: 570px;
   }
@@ -60,5 +65,9 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+  }
+
+  &__picture-not-reverse {
+    margin-right: 30px;
   }
 }

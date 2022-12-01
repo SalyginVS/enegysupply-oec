@@ -16,18 +16,18 @@
 @import "./components/pricing-home";
 @import "./components/price-home-arch";
 @import "./components/transmission-el-meter-home";
-@import "./components/green-info";
 @import "./components/green-contract-home";
 @import "./components/power-recovery";
-@import "./components/cabinet-info";
 @import "./components/cabinet-scope";
 @import "./components/mobile-app-scope";
+@import "./components/electrical-safety-rules.scss";
 @import "./components/footer";
 
 // подключения компонентов секции
 
 @import "./components/list-nomber";
 @import "./components/simple-list";
+@import "./components/warning-list";
 @import "./components/info-gray";
 @import "./components/small-download";
 @import "./components/payments";

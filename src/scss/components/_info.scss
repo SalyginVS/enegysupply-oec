@@ -11,10 +11,32 @@
 
   &__info {
     margin-right: 30px;
+    max-width: 705px;
+  }
+
+  &__info-bold {
+    margin-right: 30px;
     max-width: 640px;
   }
 
+  &__title {
+    margin-bottom: 48px;
+    text-align: left;
+  }
+
+  &__info-content {
+    margin-bottom: 45px;
+  }
+
   &__info p {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #var(--color-metal);
+  }
+
+  &__info-bold p {
     margin-bottom: 50px;
     font-weight: 600;
     font-size: 32px;

@@ -1,0 +1,26 @@
+.warning {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+
+  &__list {
+    max-width: 703px;
+  }
+
+  &__list:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &__item {
+    padding-left: 1.75rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--color-metal);
+    background: url("../img/icons/list-bullet/red-arrow-marker.svg") no-repeat left 6px;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}

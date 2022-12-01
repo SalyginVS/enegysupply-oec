@@ -48,9 +48,9 @@
   }
 
   &__link {
-    @extend %btn;
-
     text-transform: uppercase;
+
+    @extend %btn;
   }
 
   &__picture {

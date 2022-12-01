@@ -1,3 +1,50 @@
 .electrical-safety-attention {
   background-color: var(--color-light);
+
+  &__container {
+    position: relative;
+    border-left: #fcaf17 solid 8px;
+    border-radius: 8px;
+    background-color: #fcefd4;
+  }
+
+  &__content {
+    position: relative;
+    padding: 72px 50px 72px 100px;
+    z-index: 5;
+  }
+
+  &__container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 390px;
+    height: 374px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/svg/attention.svg");
+  }
+
+  &__title {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  &__descr {
+    margin-bottom: 40px;
+    max-width: 1000px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--color-metal);
+  }
+
+  &__descr-bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--color-metal);
+  }
 }

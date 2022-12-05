@@ -92,6 +92,16 @@
   color: var(--color-primary);
 }
 
+.nav__link-active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.nav__link-active:hover {
+  color: var(--color-primary);
+}
+
 .nav__link--drop::after {
   content: "";
   display: inline-block;

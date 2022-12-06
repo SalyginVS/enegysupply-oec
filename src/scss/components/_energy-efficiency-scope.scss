@@ -1,0 +1,48 @@
+.energy-efficiency-scope {
+  background-color: var(--color-porcelain);
+
+  &__title-container {
+    margin: 0 auto;
+    max-width: 937px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 75px;
+  }
+
+  &__item {
+    position: relative;
+    padding-top: 110px;
+    padding-left: 20px;
+    text-align: left;
+    background-position: top left;
+    background-size: 96px 96px;
+    background-repeat: no-repeat;
+
+    &--lamp-led {
+      background-image: url("../img/svg/lamp-led.svg");
+    }
+
+    &--warming-home {
+      background-image: url("../img/svg/warming-home.svg");
+    }
+
+    &--appliances-a-class {
+      background-image: url("../img/svg/appliances-a-class.svg");
+    }
+
+    &--two-tarif-meter {
+      background-image: url("../img/svg/two-tarif-meter.svg");
+    }
+
+    &--turn-off-light {
+      background-image: url("../img/svg/turn-off-light.svg");
+    }
+
+    &--close-doors {
+      background-image: url("../img/svg/close-doors.svg");
+    }
+  }
+}

@@ -26,6 +26,12 @@
   justify-content: center;
 }
 
+@mixin flex-ar-start {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+
 @mixin flex-all-sb {
   display: flex;
   align-items: center;

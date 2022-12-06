@@ -1,0 +1,62 @@
+.energy-efficiency-partners {
+  background-color: var(--color-light);
+
+  &__title-container {
+    margin: 0 auto;
+    max-width: 935px;
+  }
+
+  &__wrap {
+    @include flex-ar-start;
+  }
+
+  &__item:nth-child(1) {
+    border-bottom: 1px solid rgba(32, 33, 32, 0.12);
+    padding-bottom: 65px;
+  }
+
+  &__item:nth-child(2) {
+    margin-bottom: 85px;
+    padding-top: 65px;
+  }
+
+  &__logo {
+    display: block;
+  }
+
+  &__content {
+    max-width: 704px;
+  }
+
+  &__content-title {
+    margin-bottom: 50px;
+  }
+
+  &__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--color-metal);
+  }
+
+  &__content a {
+    text-decoration: underline;
+  }
+
+  &__descr:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &__descr span {
+    font-weight: 600;
+  }
+
+  &__link {
+    display: block;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #202120;
+  }
+}

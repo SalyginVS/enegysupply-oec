@@ -36,8 +36,14 @@
     margin-bottom: 16px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 190%;
+    line-height: 1.9;
     color: #var(--color-metal);
+  }
+
+  &__info p span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
   }
 
   &__info-bold p {

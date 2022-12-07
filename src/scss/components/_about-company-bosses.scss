@@ -1,0 +1,51 @@
+.about-company-bosses {
+  background-color: var(--color-light);
+
+  &__wrap {
+    @include flex-start-sb;
+  }
+
+  &__container {
+    margin-left: 15px;
+    border: 1px solid #e9edef;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+    max-width: 704px;
+    background-color: var(--color-light);
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #656865;
+  }
+
+  &__blockquote {
+    position: relative;
+    margin: 0 auto;
+    max-width: 290px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #656865;
+  }
+
+  &__blockquote-person {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--color-metal);
+  }
+
+  &__blockquote-img {
+    margin: 0 auto 24px;
+    border-radius: 50%;
+  }
+}

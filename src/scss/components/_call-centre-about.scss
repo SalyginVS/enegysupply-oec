@@ -1,0 +1,29 @@
+.call-centre-about {
+  background-color: var(--color-light);
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__descr {
+    margin: 0 auto 50px;
+    max-width: 704px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--color-metal);
+  }
+
+  &__wrap {
+    @include flex-ar-start;
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__content:not(:last-child) {
+    margin-right: 15px;
+  }
+}

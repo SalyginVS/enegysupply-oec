@@ -85,6 +85,12 @@ a {
   max-width: var(--container-width);
 }
 
+.container-1200 {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: 1200px;
+}
+
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }

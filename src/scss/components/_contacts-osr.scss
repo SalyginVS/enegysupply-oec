@@ -1,0 +1,70 @@
+.contacts-osr {
+  &__title {
+    margin-bottom: 55px;
+  }
+
+  &__item {
+    border-bottom: 1px solid rgba(32, 33, 32, 0.12);;
+  }
+
+  &__wrap {
+    @include flex-all-sb;
+  }
+
+  &__address {
+    @include flex-column-start;
+
+    padding: 50px 30px 50px 126px;
+    background-position: left center;
+    background-size: 96px 96px;
+    background-repeat: no-repeat;
+
+    &--kiroe {
+      background-image: url("../img/svg/logo-kir-oe.svg");
+    }
+
+    &--poe {
+      background-image: url("../img/svg/logo-pol-oe.svg");
+    }
+
+    &--odz {
+      background-image: url("../img/svg/logo-odessa-railway.svg");
+    }
+  }
+
+  &__contacs {
+    @include flex-column-end;
+  }
+
+  &__address-descr {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--color-metal);
+  }
+
+  &__address-map {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--color-asparagus);
+  }
+
+  &__contact-link {
+    margin-bottom: 16px;
+    text-decoration: underline;
+  }
+
+  &__contact-link,
+  &__contact-phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--color-metal);
+  }
+
+  &__contact-phone span {
+    text-decoration: underline;
+  }
+}

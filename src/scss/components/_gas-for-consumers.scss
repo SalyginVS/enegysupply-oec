@@ -1,0 +1,51 @@
+.gas-for-consumers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+
+  &__child {
+    padding: 165px 10px;
+    min-height: 976px;
+  }
+
+  &__cabinet {
+    background-color: #f8f9f9;
+  }
+
+  &__documents {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/bg-gas-for-consumers.jpg");
+  }
+
+  &__documents-container {
+    margin: 0 auto;
+  }
+
+  &__documents-list {
+    margin-bottom: 50px;
+  }
+
+  &__prise {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: var(--color--metal);
+
+    &--uppercase {
+      text-transform: uppercase;
+    }
+  }
+
+  &__prise span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  &__prise:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}

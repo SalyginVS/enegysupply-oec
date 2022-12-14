@@ -14,6 +14,10 @@
     width: 100%;
     max-width: 704px;
     background-color: var(--color-porcelain);
+
+    &--wide865 {
+      max-width: 865px;
+    }
   }
 
   .small-download__container:not(:last-child) {
@@ -24,7 +28,7 @@
     padding: 40px 15px;
     background-color: var(--color-light);
   }
-       
+
   &__title-wrap {
     max-width: 580px;
   }

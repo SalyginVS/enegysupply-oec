@@ -1,33 +1,33 @@
 .hero-page {
   position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: cover;
-  background-color: var(--color-oslo);
   margin-top: 55px;
-  color: var(--color-light);
-  height: calc(75vh - 90px);
-  min-height: 40rem;
   margin-bottom: 0;
   padding-top: 0;
+  height: calc(75vh - 90px);
+  min-height: 40rem;
+  color: var(--color-light);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--color-oslo);
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: 0;
     left: 0;
-    bottom: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
   }
 
   &__container {
-    background: rgba(72, 172, 50, 0.9);
     position: absolute;
-    padding: 4rem 6rem 4rem 4rem;
     left: 0;
     bottom: 6rem;
     border-radius: 0 9rem 9rem 0;
+    padding: 4rem 6rem 4rem 4rem;
+    background: rgba(72, 172, 50, 80%);
   }
 
   .page-title {

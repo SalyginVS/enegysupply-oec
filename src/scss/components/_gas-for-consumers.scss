@@ -9,14 +9,24 @@
   }
 
   &__cabinet {
-    background-color: #f8f9f9;
+    background-color: var(--color-haze);
+  }
+
+  &__cabinet-form {
+    margin: 0 auto;
+    max-width: 460px;
+  }
+
+  &__cabinet-title {
+    margin-bottom: 74px;
+    text-align: left;
   }
 
   &__documents {
+    background-image: url("../img/bg-gas-for-consumers.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../img/bg-gas-for-consumers.jpg");
   }
 
   &__documents-container {

@@ -1,0 +1,24 @@
+.form {
+  &__title {
+    margin-bottom: 74px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: left;
+    color: var(--color-metal);
+  }
+
+  &__sub-title {
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: var(--color-corduroy);
+  }
+
+  .form__name:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}

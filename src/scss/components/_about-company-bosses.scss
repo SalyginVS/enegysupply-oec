@@ -21,7 +21,7 @@
     line-height: 1.2;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    color: #656865;
+    color: var(--color-corduroy);
   }
 
   &__blockquote {
@@ -32,7 +32,7 @@
     font-size: 16px;
     line-height: 140%;
     text-align: center;
-    color: #656865;
+    color: var(--color-corduroy);
   }
 
   &__blockquote-person {

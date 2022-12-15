@@ -5,6 +5,15 @@
 @import "fonts";
 @import "settings";
 
+// подключения компонентов секции
+@import "./components/form";
+@import "./components/list-nomber";
+@import "./components/simple-list";
+@import "./components/warning-list";
+@import "./components/info-gray";
+@import "./components/small-download";
+@import "./components/payments";
+
 // подключения компонентов страницы
 @import "./components/header";
 @import "./components/hero";
@@ -31,11 +40,4 @@
 @import "./components/contacts-osr";
 @import "./components/footer";
 
-// подключения компонентов секции
 
-@import "./components/list-nomber";
-@import "./components/simple-list";
-@import "./components/warning-list";
-@import "./components/info-gray";
-@import "./components/small-download";
-@import "./components/payments";

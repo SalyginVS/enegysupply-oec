@@ -52,7 +52,7 @@
       display: block;
       border-style: solid;
       border-width: 2px;
-      border-color: #656865;
+      border-color: var(--color-corduroy);
       border-radius: 50%;
       width: 20px;
       height: 20px;
@@ -65,7 +65,7 @@
         border-radius: 100px;
         width: 68%;
         height: 2px;
-        background-color: #656865;
+        background-color: var(--color-corduroy);
         transform: translateY(-50%);
       }
 
@@ -77,7 +77,7 @@
         border-radius: 100px;
         width: 2px;
         height: 68%;
-        background-color: #656865;
+        background-color: var(--color-corduroy);
         transform: translateX(-50%);
       }
      }
